@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+  <title>JACTIPA Studio - Contactez-nous</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contactez JACTIPA Studio pour tous vos besoins en impression, design et photographie">
+
+  <link rel="icon" href="luc.jpg" type="image/jpeg">
+  <link rel="apple-touch-icon" href="luc.jpg">
+  <link rel="shortcut icon" href="luc.jpg">
+
+
+  <link rel="stylesheet" href="style.css">
+  <script src="scripts.js" defer></script>
+
+</head>
+<body>
+  <header>
+    <h1>JACTIPA Studio</h1>
+    <nav>
+      <ul class="nav-menu">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="accueille.html">Accueil</a></li>
+        <li><a href="nos-designs.html">Nos Designs</a></li>
+        <li><a href="contacte.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h2>Contactez-nous</h2>
+        <p>Pour toute demande de devis ou information, n'hésitez pas à nous contacter</p>
+      </div>
+    </section>
+
+    <section class="contact-info">
+      <h2>Informations de Contact</h2>
+      <div class="contact-details">
+        <div class="contact-item">
+          <h3>📍 Adresse</h3>
+          <p>JACTIPA Studio<br>
+          MUTWANGA NZENGA CENTRE</p>
+        </div>
+        
+        <div class="contact-item">
+          <h3>📞 Téléphone</h3>
+          <p>+243 981053109</p>
+        </div>
+        
+        <div class="contact-item">
+          <h3>📧 Email</h3>
+          <a href="Powerjonas337@gmail.com">Envoyez-moi un e-mail</a>
+        </div>
+        
+        <div class="contact-item">
+          <h3>🕒 Horaires</h3>
+          <p>Lundi - Vendredi: 8h00 - 18h00<br>
+          Samedi: 9h00 - 15h00</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-form">
+      <h2>Formulaire de Contact</h2>
+<form class="contact-form-container" data-formspree-endpoint="http://localhost:3000/api/contact" data-mailto-recipient="Powerjonas337@gmail.com" data-mailto-subject="Demande via le site">
+
+        <div class="form-group">
+          <label for="name" aria-placeholder="aria-placeholder">Nom complet *</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="email" aria-placeholder="aria-placeholder">Email *</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="phone" aria-placeholder="aria-placeholder">Téléphone</label>
+          <input type="tel" id="phone" name="phone">
+        </div>
+        
+        <div class="form-group">
+          <label for="subject" aria-placeholder="">Sujet *</label>
+          <input type="text" id="subject" name="subject" required>
+        </div>
+        
+        <div class="form-group" aria-placeholder="aria-placeholder">
+          <label for="message">Message *</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        
+        <button type="submit" class="submit-btn">Envoyer le message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 JACTIPA Studio. Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
